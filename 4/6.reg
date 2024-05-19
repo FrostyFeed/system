@@ -1,0 +1,9 @@
+[HKEY_CLASSES_ROOT\.ttt]
+@="tttfile"
+[HKEY_CLASSES_ROOT\tttfile]
+@="TTT File"
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\tttfile\shell]
+[HKEY_CLASSES_ROOT\tttfile\shell\open]
+[HKEY_CLASSES_ROOT\tttfile\shell\open\command]
+@="\"notepad.exe\" \"%1\""
